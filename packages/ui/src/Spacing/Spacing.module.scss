@@ -1,0 +1,19 @@
+@use '../styles/design-system.scss';
+
+.spacing {
+    background-color: var(--adaptiveGrey100);
+    width: 100%;
+}
+
+$spacing-map: (
+    sm: 4px,
+    md: 8px,
+    lg: 16px,
+    xl: 32px,
+);
+
+@each $key, $val in $spacing-map {
+    .size-#{$key} {
+        height: $val;
+    }
+}

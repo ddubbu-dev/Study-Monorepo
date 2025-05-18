@@ -1,0 +1,49 @@
+.grid {
+    display: grid;
+    width: 100%;
+}
+
+// gap 설정
+$gaps: (
+    none: 0,
+    xs: 4px,
+    sm: 8px,
+    md: 16px,
+    lg: 24px,
+    xl: 32px,
+);
+
+@each $name, $value in $gaps {
+    .gap-#{$name} {
+        gap: #{$value};
+    }
+}
+
+// 컬럼 설정
+@for $i from 1 through 12 {
+    .columns-#{$i} {
+        grid-template-columns: repeat(#{$i}, 1fr);
+    }
+}
+
+// align 설정
+.align-start {
+    align-items: start;
+}
+.align-center {
+    align-items: center;
+}
+.align-end {
+    align-items: end;
+}
+
+// justify 설정
+.justify-start {
+    justify-items: start;
+}
+.justify-center {
+    justify-items: center;
+}
+.justify-end {
+    justify-items: end;
+}
