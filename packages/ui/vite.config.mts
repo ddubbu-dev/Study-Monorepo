@@ -57,8 +57,8 @@ export default defineConfig({
         viteStaticCopy({
             targets: [
                 {
-                    src: path.resolve(__dirname, 'src/styles'),
-                    dest: '.', // dist/styles 폴더로 복사
+                    src: 'src/styles/**/*',
+                    dest: 'styles', // dist/styles 폴더로 복사
                 },
             ],
         }),
