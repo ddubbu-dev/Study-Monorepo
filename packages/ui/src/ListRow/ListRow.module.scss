@@ -1,0 +1,21 @@
+.article {
+    padding: 10px;
+    background-color: blue;
+    //  var(--adaptiveBackground);
+    cursor: pointer;
+    transition:
+        background-color 0.2s,
+        transform 0.1s;
+
+    border-radius: 12px; // 👈 둥글게!
+
+    &:hover {
+        background-color: red;
+        // var(--adaptiveGrey100); // 호버 시 배경색
+    }
+
+    &:active {
+        background-color: var(--adaptiveGrey200); // 클릭 시(눌린 상태) 배경색
+        transform: scale(0.98);
+    }
+}
