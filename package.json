@@ -5,7 +5,7 @@
     "scripts": {
         "build": "turbo build",
         "prelint": "pnpm run build",
-        "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+        "lint": "eslint \"**/*.{js,jsx,ts,tsx}\"",
         "lint:fix": "pnpm run lint --fix",
         "prettier": "prettier --check '**/*.{ts,tsx,js,jsx,json}'",
         "prettier:fix": "prettier --write '**/*.{ts,tsx,js,jsx,json}'",
@@ -14,9 +14,11 @@
         "build:watch": "turbo build:watch"
     },
     "devDependencies": {
+        "@changesets/cli": "^2.29.4",
         "@dev-ddubbu/eslint-config": "workspace:^",
         "@dev-ddubbu/prettier-config": "workspace:^",
         "builtin-modules": "^4.0.0",
+        "eslint": "^9.18.0",
         "prettier": "^3.2.5",
         "turbo": "^2.3.3",
         "typescript": "^5.2.2"
