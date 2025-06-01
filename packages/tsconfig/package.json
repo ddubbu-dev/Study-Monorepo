@@ -4,5 +4,8 @@
     "scripts": {
         "version": "pnpm version",
         "deploy": "pnpm publish"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }

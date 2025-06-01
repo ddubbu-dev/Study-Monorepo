@@ -18,5 +18,8 @@
     },
     "homepage": "<github url>",
     "keywords": [],
-    "license": "MIT"
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    }
 }
