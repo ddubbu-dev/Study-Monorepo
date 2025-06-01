@@ -14,6 +14,7 @@
         "build:watch": "turbo build:watch"
     },
     "devDependencies": {
+        "@changesets/cli": "^2.29.4",
         "@dev-ddubbu/eslint-config": "workspace:^",
         "@dev-ddubbu/prettier-config": "workspace:^",
         "builtin-modules": "^4.0.0",
