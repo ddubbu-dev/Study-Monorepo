@@ -5,7 +5,7 @@
     "scripts": {
         "build": "turbo build",
         "prelint": "pnpm run build",
-        "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+        "lint": "eslint \"**/*.{js,jsx,ts,tsx}\"",
         "lint:fix": "pnpm run lint --fix",
         "prettier": "prettier --check '**/*.{ts,tsx,js,jsx,json}'",
         "prettier:fix": "prettier --write '**/*.{ts,tsx,js,jsx,json}'",

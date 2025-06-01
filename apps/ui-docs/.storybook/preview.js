@@ -1,5 +1,6 @@
 import _ from '../node_modules/@dev-ddubbu/ui/dist/styles/design-system.scss'
 
+// eslint-disable-next-line no-console
 console.log('_', _)
 
 /** @type { import('@storybook/react').Preview } */
