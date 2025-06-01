@@ -1,5 +1,5 @@
 {
-    "extends": "@myapp/tsconfig/base.json",
+    "extends": "@dev-ddubbu/tsconfig/base.json",
     "compilerOptions": {
         "baseUrl": "."
     },

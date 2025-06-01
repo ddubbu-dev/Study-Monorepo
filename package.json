@@ -1,5 +1,5 @@
 {
-    "name": "@myapp",
+    "name": "dev-ddubbu",
     "private": true,
     "description": "",
     "scripts": {
@@ -14,8 +14,8 @@
         "build:watch": "turbo build:watch"
     },
     "devDependencies": {
-        "@myapp/eslint-config": "workspace:^",
-        "@myapp/prettier-config": "workspace:^",
+        "@dev-ddubbu/eslint-config": "workspace:^",
+        "@dev-ddubbu/prettier-config": "workspace:^",
         "builtin-modules": "^4.0.0",
         "prettier": "^3.2.5",
         "turbo": "^2.3.3",

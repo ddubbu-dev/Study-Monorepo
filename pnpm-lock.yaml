@@ -8,10 +8,10 @@ importers:
 
   .:
     devDependencies:
-      '@myapp/eslint-config':
+      '@dev-ddubbu/eslint-config':
         specifier: workspace:^
         version: link:packages/eslint-config
-      '@myapp/prettier-config':
+      '@dev-ddubbu/prettier-config':
         specifier: workspace:^
         version: link:packages/prettier-config
       builtin-modules:
@@ -29,10 +29,10 @@ importers:
 
   apps/ui-docs:
     devDependencies:
-      '@myapp/tsconfig':
+      '@dev-ddubbu/tsconfig':
         specifier: workspace:^
         version: link:../../packages/tsconfig
-      '@myapp/ui':
+      '@dev-ddubbu/ui':
         specifier: workspace:^
         version: link:../../packages/ui
       '@storybook/addon-essentials':
@@ -183,7 +183,7 @@ importers:
         specifier: '>=18'
         version: 18.3.1(react@18.3.1)
     devDependencies:
-      '@myapp/tsconfig':
+      '@dev-ddubbu/tsconfig':
         specifier: workspace:^
         version: link:../tsconfig
       '@types/react':

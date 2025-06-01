@@ -1,5 +1,5 @@
-import node from '@myapp/eslint-config/node'
-import typescript from '@myapp/eslint-config/typescript'
+import node from '@dev-ddubbu/eslint-config/node'
+import typescript from '@dev-ddubbu/eslint-config/typescript'
 
 export default [
     {
