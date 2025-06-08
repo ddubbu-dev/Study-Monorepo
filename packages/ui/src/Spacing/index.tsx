@@ -7,6 +7,6 @@ export interface SpacingProps {
     size?: 'sm' | 'md' | 'lg' | 'xl'
 }
 
-export function Spacing({size = 'sm'}: SpacingProps) {
+export function Spacing({size = 'md'}: SpacingProps) {
     return <div className={cx('spacing', `size-${size}`)} />
 }
